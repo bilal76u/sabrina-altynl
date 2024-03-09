@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Five Hotel</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="imgs/travel-agency-logo-design-template-634813eb9a3714134172f0532d189d75_screen.jpg"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="" alt="#" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#show-menu"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="show-menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home"
+                >главная <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#room">отели</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Функции
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">ссылка</a>
+                <a class="dropdown-item" href="#">другая ссылка</a>
+                <a class="dropdown-item" href="#">другая ссылка</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">новая ссылка</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">блоги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">контакты</a>
+            </li>
+            <li class="nav-item book d-flex align-items-center">
+              <a class="nav-link" href="#">𝙎𝙖𝙗𝙧𝙞𝘼𝙡𝙩𝙮𝙣</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="small-container">
+        <form class="main-font-family text-center">
+          <input type="search" />
+          <i class="fas fa-search"></i>
+          <input type="submit" value="Поиск" />
+        </form>
+        <div class="row">
+          <div
+            class="col-lg-4 col-12 lobster-font-family d-flex align-items-center"
+          >
+            <h2>этому тур агенству более 2-х лет!</h2>
+            <button><a href="#agent">про тур агенство</a></button>
+          </div>
+        </div>
+        <div
+          class="h-slider roboto-font-family welcome d-flex align-items-center justify-content-center"
+        >
+          <h1 class="text-capitalize">
+            Добро пожаловать <br /><span>тур агенство</span>
+          </h1>
+          <div id="headerslider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item carousel-three active"></div>
+              <div class="carousel-item carousel-two"></div>
+              <div class="carousel-item carousel-one"></div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#headerslider"
+              role="button"
+              data-slide="prev"
+            >
+              <i class="fas fa-angle-double-left"></i>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#headerslider"
+              role="button"
+              data-slide="next"
+            >
+              <i class="fas fa-angle-double-right"></i>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="st-rec"></div>
+      <div class="rd-rec"></div>
+    </header>
+
+    <div class="about lobster-font-family">
+      <div class="container">
+        <h2 class="text-center text-capitalize">Про агенство</h2>
+        <img src="imgs/shape.png" />
+        <div id="agent" class="row">
+          <div class="col-lg-6 col-12">
+            <h4>Это лучшее тур агенство в 2024 году</h4>
+            <p>
+              Нашему тур агенству уже более 2 года. У нас очень дешевые туры в
+              различные теплые страны. Успейте приобрести!
+            </p>
+            <button><a href="#home">Главная</a></button>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="img"></div>
+          </div>
+        </div>
+        <h2 class="text-capitalize" id="room">отель</h2>
+        <div class="row">
+          <div class="col-lg-4 col-12">
+            <div class="img"></div>
+          </div>
+          <div class="col-lg-8 col-12">
+            <div class="block">
+              <div>
+                <img src="imgs/shape.png" />
+                <strong>$405</strong>
+                <h5>Премиум комната</h5>
+                <p>Премиум команата всего за 405$ успей приобрести!</p>
+                <button>
+                  <a href="#home" class="text-capitalize">Главная</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery lobster-font-family" id="blog">
+      <div class="container">
+        <h2 class="text-calitalize text-center">Галерия</h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="pic-one"><h4>Пляж</h4></div>
+            <div class="pic-two"><h4>Загар</h4></div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="pic-three active"><h4>Йога</h4></div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="pic-four"><h4>Романтический ужин</h4></div>
+            <div class="pic-five"><h4>Отдых</h4></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider main-font-family">
+      <h2 class="text-center text-capitalize main-font-family">
+        что говорят клиенты
+      </h2>
+      <div id="slideToNext" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#slideToNext" data-slide-to="0" class="active"></li>
+          <li data-target="#slideToNext" data-slide-to="1"></li>
+          <li data-target="#slideToNext" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption d-block">
+              <img src="imgs/pic7.png" />
+              <h5>jone due</h5>
+              <p>
+                Это был лучший отдых в моей жизни. Обязательно обращусь еще!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-block">
+              <img src="imgs/pic7.png" />
+              <h5>jone due</h5>
+              <p>очень дешево. спасибо было очень классно!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-block">
+              <img src="imgs/pic7.png" />
+              <h5>jone due</h5>
+              <p>спасибо за тур все отлично!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact main-font-family text-center">
+      <div class="container">
+        <h2 id="contact">Регестрация</h2>
+        <div class="row">
+          <div class="col-6">
+            <div class="contact-form">
+              <form>
+                <input type="text" placeholder="Имя" />
+                <input type="email" placeholder="почта" />
+                <input type="text" placeholder="номер" />
+                <textarea placeholder="Сообщение"></textarea>
+                <input type="submit" value="заявка" />
+              </form>
+            </div>
+          </div>
+          <div class="col-6">
+            <h2 class="text-right">Оставь заявку!</h2>
+            <img src="imgs/shape.png" />
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </div>
+
+    <footer class="noto-font-family">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+              <h3>Нужное:</h3>
+              <ul class="text-capitalize">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">отели</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">контакты</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <h3>Как найти нас</h3>
+              <p>
+                Кулагер<br />
+                Алмата<br />
+                +7 705 391 1113<br />
+                +7 777 095 9622<br />
+                sabrima@gmail.com
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 form">
+              <h3>Отзыв</h3>
+              <form>
+                <input type="email" placeholder="Email" />
+                <input type="submit" />
+              </form>
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright noto-font-family">
+      <p>© 2024 sabrina and altynay</p>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function () {
+        "use strict";
+
+        var winH = $(window).height();
+
+        $("header").height(winH);
+
+        $(".navbar ul.navbar-nav li a").on("click", function (e) {
+          var getAttr = $(this).attr("href");
+
+          e.preventDefault();
+          $("html").animate({ scrollTop: $(getAttr).offset().top }, 1000);
+        });
+      });
+    </script>
+  </body>
+</html>
